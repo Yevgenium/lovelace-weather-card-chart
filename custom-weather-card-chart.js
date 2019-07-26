@@ -90,6 +90,9 @@ class WeatherCardChart extends Polymer.Element {
   static get template() {
     return Polymer.html`
       <style>
+        ha-card {
+          padding: 16px 0 0 0;
+        }
         ha-icon {
           color: var(--paper-item-icon-color);
         }
